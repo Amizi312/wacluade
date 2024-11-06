@@ -1,7 +1,7 @@
 require('dotenv').config();
 const wa = require('@open-wa/wa-automate');
-const botConfig = require('./config/bot.config');
-const MessageHandler = require('./handlers/messageHandler');
+const botConfig = require('./bot-config');
+const MessageHandler = require('./message-handler');
 
 async function startBot() {
   try {

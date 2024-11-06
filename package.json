@@ -6,7 +6,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@open-wa/wa-automate": "^4.66.3",
+    "@open-wa/wa-automate": "^4.74.0",
     "dotenv": "^16.0.3"
   },
   "devDependencies": {
