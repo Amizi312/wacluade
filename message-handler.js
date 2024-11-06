@@ -27,6 +27,10 @@ class MessageHandler {
             !help - Show this message`;
           await this.client.sendText(message.from, helpMessage);
           break;
+          
+          default:
+            await this.client.sendText(message.from, "קיבלתי");
+            break;
       }
     } catch (error) {
       console.error('Error handling message:', error);
