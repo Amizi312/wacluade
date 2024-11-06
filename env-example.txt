@@ -1,0 +1,2 @@
+SESSION_DATA=your_session_data_here
+BOT_NAME=MyWhatsAppBot
